@@ -8,6 +8,7 @@
     background-position: center top;
     height: 100vh;
     padding-top: 344px;
+    margin-bottom: 70px;
 }
 .main_banner.banner_2{
     background-image: url("images/01 2.jpg");
@@ -96,4 +97,28 @@ header .soc{
     font-size: 18px;
     text-decoration:none;
     margin-right: 20px;
+}
+.brand_style{
+    margin-bottom: 150px;
+}
+.brand_style h2{
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.brand_style ul{
+    list-style: none;
+    display: flex;
+}
+.brand_style ul li img{
+    margin-right: 30px;
+}
+.brand_style ul li p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    font-family: sans-serif;
+
 }

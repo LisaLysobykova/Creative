@@ -122,3 +122,34 @@ header .soc{
     font-family: sans-serif;
 
 }
+.name_logo{
+    margin-bottom: 120px;
+}
+.name_logo h1{
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+.name_logo ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.name_logo ul li{
+    display: flex;
+}
+.name_logo ul li h2{
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    font-family: sans-serif;
+}
+.name_logo ul li p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    font-family: sans-serif;
+    padding-top: 29px;
+}

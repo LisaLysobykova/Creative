@@ -122,6 +122,10 @@ header .soc{
     font-family: sans-serif;
 
 }
+.brand_style_list li ul{
+    display: inline-block;
+}
+
 .name_logo{
     margin-bottom: 120px;
 }
@@ -152,6 +156,9 @@ header .soc{
     color: #181818;
     font-family: sans-serif;
     padding-top: 29px;
+}
+.name_logo_list li ul{
+    display: inline-block;
 }
 .price h2{
     font-size: 38px;

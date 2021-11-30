@@ -115,7 +115,7 @@ header .soc{
 .brand_style ul li img{
     margin-right: 30px;
 }
-.brand_style ul li p{
+.brand_style ul li{
     font-size: 18px;
     line-height: 25px;
     color: #181818;
@@ -151,6 +151,9 @@ header .soc{
     font-family: sans-serif;
 }
 .name_logo ul li p{
+    padding-top: 29px;
+}
+.name_logo ul li{
     font-size: 18px;
     line-height: 25px;
     color: #181818;
@@ -182,7 +185,10 @@ header .soc{
     font-family: sans-serif;
     margin-right: 82px;
 }
-.price_list li ul p:last-child{
+.price_list li ul li{
+    padding: 11px 13px;
+}
+.price_list li ul li:last-of-type{
     background: #2B59C3;
     border-radius: 5px;
     color: white;

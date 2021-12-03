@@ -312,3 +312,41 @@ header .soc{
 .i_agree a{
     text-decoration: none;
 }
+.guarantee{
+    background-image: url("images/Rectangle 32.jpg");
+    background-size: cover;
+    padding-top: 282px;
+    padding-bottom: 80px;
+}
+.guarantee h1{
+    font-size: 55px;
+    line-height: 55px;
+    color: white;
+    font-family: '20 Kopeek_book';
+    margin-bottom: 40px
+}
+.guarantee ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.guarantee ul li{
+    display: flex;
+}
+.guarantee ul li h2{
+    font-size: 55px;
+    line-height: 55px;
+    color: white;
+    font-family: '20 Kopeek_book';
+}
+.guarantee ul li p{
+    padding-top: 29px;
+    max-width: 160px;
+}
+.guarantee ul li{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    font-family: '20 Kopeek';
+    padding-top: 29px;
+}

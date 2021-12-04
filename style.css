@@ -364,8 +364,6 @@ header .soc{
 .mass-media{
     display: flex;
     justify-content: space-between;
-
-
 }
 .container h1{
     font-size: 38px;
@@ -391,5 +389,4 @@ header .soc{
 .mass-media-item a{
     text-decoration: none;
     color: white;
-    vertical-align: bottom;
 }

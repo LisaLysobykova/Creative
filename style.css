@@ -351,15 +351,35 @@ header .soc{
     font-family: '20 Kopeek';
     padding-top: 29px;
 }
-
+.connect{
+    display: flex;
+}
+.connect_form .information{
+    display: flex;
+    width: 100%;
+    max-width: 445px;
+}
 .connect_form{
-    display: inline-block;
-    flex-direction: column;
+    margin-right: 125px;
 }
 .connect_contacts{
     display: flex;
     flex-direction: column;
     align-content: flex-end;
+}
+.connect_contacts p{
+    font-size: 26px;
+    line-height: 29px;
+    color: #181818;
+    font-family: '20 Kopeek_book';
+    margin-bottom: 15px;
+
+}
+.connect_form .i_agree{
+    margin-bottom: 48px;
+}
+.connect_form .button{
+    margin-bottom: 150px;
 }
 .mass-media{
     display: flex;

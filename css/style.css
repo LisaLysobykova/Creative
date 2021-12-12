@@ -33,7 +33,6 @@
     background-size: cover;
     background-position: center top;
     height: 100vh;
-    padding-top: 344px;
     margin-bottom: 70px;
 }
 .main_banner.banner_2{
@@ -55,6 +54,7 @@ header{
     left: 0;
     top: 0;
     padding-top: 31px;
+    z-index: 2;
 }
 header .container{
     display: flex;
@@ -101,21 +101,21 @@ header .soc{
 }
 
 
-.main_banner h1{
+.position h1{
     font-size: 55px;
     line-height: 55px;
     color: #181818;
     font-family: '20 Kopeek_book';
 
 }
-.main_banner p{
+.position p{
     font-family: '20 Kopeek_book';
     font-size: 34px;
     line-height: 37px;
     margin-bottom: 65px;
     color: #181818;
 }
-.main_banner .btn{
+.position .btn{
    display: inline-block;
     padding: 23px 47px;
     background: #FFFFFF;
@@ -512,4 +512,10 @@ header .soc{
 .my-flex-container .item_1, .item_2, .item_3, .item_4{
     padding-left: 19px;
     padding-right: 10px;
+}
+.position{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 344px;
 }

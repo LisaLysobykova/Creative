@@ -1,24 +1,24 @@
 
 @font-face {
     font-family: '20 Kopeek_book';
-    src: url('fonts/20Kopeek-Book.eot');
-    src: url('fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
-    url('fonts/20Kopeek-Book.woff2') format('woff2'),
-    url('fonts/20Kopeek-Book.woff') format('woff'),
-    url('fonts/20Kopeek-Book.ttf') format('truetype'),
-    url('fonts/20Kopeek-Book.svg#20Kopeek-Book') format('svg');
+    src: url('../fonts/20Kopeek-Book.eot');
+    src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek-Book.woff2') format('woff2'),
+    url('../fonts/20Kopeek-Book.woff') format('woff'),
+    url('../fonts/20Kopeek-Book.ttf') format('truetype'),
+    url('../fonts/20Kopeek-Book.svg#20Kopeek-Book') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: '20 Kopeek';
-    src: url('fonts/20Kopeek.eot');
-    src: url('fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
-    url('fonts/20Kopeek.woff2') format('woff2'),
-    url('fonts/20Kopeek.woff') format('woff'),
-    url('fonts/20Kopeek.ttf') format('truetype'),
-    url('fonts/20Kopeek.svg#20Kopeek') format('svg');
+    src: url('../fonts/20Kopeek.eot');
+    src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek.woff2') format('woff2'),
+    url('../fonts/20Kopeek.woff') format('woff'),
+    url('../fonts/20Kopeek.ttf') format('truetype'),
+    url('../fonts/20Kopeek.svg#20Kopeek') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -29,7 +29,7 @@
     margin: 0;
 }
 .main_banner{
-    background-image: url("images/01 1.jpg");
+    background-image: url("../images/01 1.jpg");
     background-size: cover;
     background-position: center top;
     height: 100vh;
@@ -37,13 +37,13 @@
     margin-bottom: 70px;
 }
 .main_banner.banner_2{
-    background-image: url("images/01 2.jpg");
+    background-image: url("../images/01 2.jpg");
 }
 .main_banner.banner_3{
-    background-image: url("images/01 3.jpg");
+    background-image: url("../images/01 3.jpg");
 }
 .main_banner.banner_4{
-    background-image: url("images/01 4.jpg");
+    background-image: url("../images/01 4.jpg");
 }
 .container{
     margin: auto;
@@ -313,7 +313,7 @@ header .soc{
     text-decoration: none;
 }
 .guarantee{
-    background-image: url("images/Rectangle 32.jpg");
+    background-image: url("../images/Rectangle 32.jpg");
     background-size: cover;
     padding-top: 282px;
     padding-bottom: 80px;

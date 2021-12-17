@@ -32,5 +32,6 @@ $( function() {
 
     $( "#opener" ).on( "click", function() {
         $( "#dialog" ).dialog( "open" );
+        $(".overlay").toggle();
     });
 } );

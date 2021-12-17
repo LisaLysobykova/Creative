@@ -46,11 +46,23 @@
         <h1>Вам нужен фирменный <br> стиль или ребрендинг?</h1>
         <p>Разработаем в срок от 10-ти дней</p>
         <a href="#" class="btn">Портфолио</a>
-        <a href="#" class="btn">Оставить заявку</a>
-        <div id="dialog" title="Basic dialog">
-            <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+        <a href="#" class="btn"><button id="opener">Оставить заявку</button></a>
+        <div class="overlay"></div>
+        <div id="dialog" title="Оставить заявку">
+            <form  name="connection" action="" method="post">
+            <label>
+                <input class="information" type="text" name="client_name" placeholder="Ваше Имя">
+            </label>
+            <label>
+                <input class="information" type="tel" name="client_phone" placeholder="+7 (999) 999-99-99">
+            </label>
+            <label class="i_agree">
+                <input  class="checkbox" type="checkbox" name="i_agree">
+                Я принимаю <a href="#">условия передачи персональных данных</a>
+            </label>
+            <button class="button" type="reset">Оставить заявку</button>
+            </form>
         </div>
-        <button id="opener">Open Dialog</button>
     </div>
 </div>
 <div class="owl-carousel">

@@ -519,3 +519,22 @@ header .soc{
     z-index: 3;
     top: 344px;
 }
+.ui-dialog{
+    width: 100% !important;
+    width: 648px !important;
+    height: 495px !important;
+}
+.ui-dialog .ui-widget-header{
+    background-color: inherit;
+    border: none;
+}
+.overlay {
+    position:fixed;
+    display:none;
+    background-color: #181818; /* 0.7 = 70% opacity */
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

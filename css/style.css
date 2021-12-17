@@ -538,3 +538,33 @@ header .soc{
     bottom: 0;
     right: 0;
 }
+button .ui-button-icon{
+    position: absolute;
+    right: -30px;
+    background: none;
+    border: none;
+}
+
+.ui-button-icon:before {
+    content: "\f00d";
+}
+
+#dialog h1{
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    font-family: '20 Kopeek_book';
+    margin-left: 54px !important;
+}
+#dialog .information{
+    max-width: 540px;
+    margin-bottom: 10px !important;
+}
+
+#dialog .i_agree{
+    margin-bottom: 48px;
+}
+#dialog .pop-up {
+    margin: 60px 54px 59px 54px;
+}
+

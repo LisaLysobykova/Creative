@@ -26,7 +26,10 @@ $( function() {
         },
         hide: {
             effect: "explode",
-            duration: 1000
+            duration: 10
+        },
+        close: function() {
+            $(".overlay").toggle();
         }
     });
 

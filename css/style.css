@@ -544,6 +544,10 @@ header .soc{
     position: absolute;
 
 }
+.ui-button-icon-only{
+    text-indent:0!important;
+}
+
 .ui-button:after{
     content: "\f00d";
     font-weight: 900;
@@ -551,6 +555,12 @@ header .soc{
     position: absolute!important;
     right: -30px!important;
     top: -30px!important;
+    color: #FFFFFF;
+
+}
+.ui-button:hover{
+    background: none!important;
+    border:none!important;
 }
 .ui-button span{
     display: none!important;

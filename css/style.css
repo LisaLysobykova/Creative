@@ -538,15 +538,23 @@ header .soc{
     bottom: 0;
     right: 0;
 }
-button .ui-button-icon{
-    position: absolute;
-    right: -30px;
-    background: none;
+.ui-widget .ui-widget{
     border: none;
-}
+    background:none;
+    position: absolute;
 
-.ui-button-icon:before {
+}
+.ui-button:after{
     content: "\f00d";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    position: absolute!important;
+    right: -30px!important;
+    top: -30px!important;
+}
+.ui-button span{
+    display: none!important;
+    border: none!important;
 }
 
 #dialog h1{

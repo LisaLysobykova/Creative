@@ -30,7 +30,8 @@ $( function() {
         },
         close: function() {
             $(".overlay").toggle();
-        }
+        },
+        closeText:""
     });
 
     $( "#opener" ).on( "click", function() {

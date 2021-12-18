@@ -31,7 +31,8 @@ $( function() {
         close: function() {
             $(".overlay").toggle();
         },
-        closeText:""
+        closeText:"",
+        draggable:false
     });
 
     $( "#opener" ).on( "click", function() {
